@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {formsModule} from '@angular/forms';
+import { FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 
@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    formsModule,
+    FormsModule,
     HttpModule
   ],
   providers: [HttpModule],
