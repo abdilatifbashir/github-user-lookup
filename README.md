@@ -1,27 +1,36 @@
-# GithubUserLookup
+  Github User Lookup angular app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+  A website where users may enter a GitHub username into a form, submit it, and see the names and descriptions of that person's public repositories.
 
-## Development server
+Created by abdilatif bashir
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+This is a website where users enter a GitHub username into a form, submit it, and can then see the names and descriptions of that person's public repositories.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## To view the site:
 
-## Build
+* Click Github User Lookup on my repositories:https://github.com/abdilatifbashir
+or
+* Copy https://abdilatifbashir.github.io/github-user-lookup/ to your browser and load it.
+To clone the site:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* On your terminal type
 
-## Running unit tests
+* git clone https://github.com/abdilatifbashir/github-user-lookup.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Known Bugs
 
-## Running end-to-end tests
+There are no known bugs.
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* HTML
+* css
+* BOOTSTRAP
+* typescript
+* NODE
+* NPM
+* angular 4
+* Licence
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT ©2017 abdilatif bashir
