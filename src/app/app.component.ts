@@ -6,5 +6,18 @@ import {Http, Response} from '@angular/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  constructor(private http:Http){}
+  userName="";
+  githubData:any="";
+
+  useSearch(){
+    this.http.get("https://api.github.com/users/"+this.userName).subscribe((response:Response)=>{
+      const userData=response.json();
+      this.githubData=userData;
+      console.log(userData);
+    }
+  )
+  }
+
 
 }
