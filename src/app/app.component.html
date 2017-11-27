@@ -1,17 +1,18 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <div class="container">
-  <div class="jumbotron">
+  <div class="jumbotron" style="background-color:#339FFF;text-align:center; font-style:italic;">
     <h1>github user search</h1>
   </div>
   <div class="row">
     <div class="col-sm-6">
-      <input [(ngModel)]="userName">
-      <button (click)="userSearch()">SEARCH</button>
+      <p style="font-size:20px;">enter your github user name?</p>
+      <input [(ngModel)]="userName" style="height:39px; width:304px; border-radius:5px;">
+      <button (click)="userSearch()" class="btn btn-primary btn-lg">SEARCH</button>
     </div>
   </div>
   <div class="col-sm-6">
-    <img [src]="avatarUrl">
+    <img [src]="avatarUrl" style="width:215px; border-radius:50%; border-color:blue;">
     <div style="float:right;">
       <h3>{{githubData.name}}</h3>
       <h4>Repositories: {{githubData.public_repos}}</h4>
