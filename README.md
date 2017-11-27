@@ -1,6 +1,4 @@
-  Github User Lookup angular app
-
-  A website where users may enter a GitHub username into a form, submit it, and see the names and descriptions of that person's public repositories.
+  Github User Lookup angular ap
 
 Created by abdilatif bashir
 
